@@ -1,0 +1,14 @@
+{
+  "name": "htgen",
+  "version": "1.0.0",
+  "description": "The original HTGen project.",
+  "main": "./src/generator.js",
+  "dependencies": {
+    "js-beautify": "^1.14.11"
+  },
+  "scripts": {
+    "build": "npx pkg ./src/generator.js"
+  },  
+  "author": "Sparky2you",
+  "license": "ISC"
+}
